@@ -1,0 +1,43 @@
+<Root>
+	<!--<Component Type="UIComponent">
+		<Filename value="html/Viewtwoo/interface.html" />
+		&lt;!&ndash;<Filename value="http://www.google.it" />&ndash;&gt;
+	</Component>-->
+	<Actor Name="Camera">
+		<Component Type="TransformComponent">
+			<LookAt>
+				<Target x="0" y="0" z="0"/>
+				<Position x="5" y="10" z="30"/>
+			</LookAt>
+		</Component>
+		<Component Type="RenderComponent"/>
+		<Component Type="PerspectiveCameraComponent"/>
+	</Actor>
+	
+	 <Actor Name="Cube">
+		 <Component Type="TransformComponent">
+				 <Position x="0" y="0" z="-3"/>
+			 <Scale x="0.25" y="0.25" z="0.25"/>
+		 </Component>
+		<Component Type="SurfaceComponent">
+			<Geometry value="cube"/>
+			<Material>
+				<DiffuseTexture filename="sample/box.jpg"/>
+			</Material>
+			<Effect value="Basic.effect"/>
+		</Component>
+	</Actor>
+
+	<!--<Actor Name="Model">
+		<Component Type="TransformComponent">
+			<Position x="0" y="0" z="0"/>
+		</Component>
+		<Component Type="GfxComponent">
+			<Filename value="http://cdn.worldtwoo.com/v1/AUTH_8def9beb-78ec-4088-8ad0-34a26f1156fc/container2/TEDxLUISS.obj"/>
+			&lt;!&ndash; <Filename value="model/TEDxLUISS.fbx"/> &ndash;&gt;
+			&lt;!&ndash;<Filename value="model/test.dae"/>&ndash;&gt;
+			<Effect value="Basic.effect"/>
+			<Effect value="Phong.effect"/>
+		</Component>
+	</Actor>-->
+</Root>

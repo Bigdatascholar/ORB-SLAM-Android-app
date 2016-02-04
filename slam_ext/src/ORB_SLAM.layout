@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="PnPsolver.cc" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11184" topLine="852" />
+		</Cursor>
+	</File>
+	<File name="ORBmatcher.cc" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18431" topLine="584" />
+		</Cursor>
+	</File>
+	<File name="LocalMapping.cc" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13592" topLine="477" />
+		</Cursor>
+	</File>
+	<File name="../include/Initializer.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="996" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ORBextractor.cc" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="33035" topLine="788" />
+		</Cursor>
+	</File>
+	<File name="Tracking.cc" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17437" topLine="638" />
+		</Cursor>
+	</File>
+	<File name="main.cc" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="Sim3Solver.cc" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3161" topLine="345" />
+		</Cursor>
+	</File>
+	<File name="Converter.cc" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="87" />
+		</Cursor>
+	</File>
+	<File name="Frame.cc" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7475" topLine="121" />
+		</Cursor>
+	</File>
+	<File name="../include/ORBextractor.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1238" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Initializer.cc" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8639" topLine="278" />
+		</Cursor>
+	</File>
+	<File name="../include/Tracking.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2200" topLine="60" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="0580337055b765c50732276300000003=+3;ORB_SLAM:ORBextractor.cc,4;ORB_SLAM:Frame.cc,5;ORB_SLAM:../include/ORBextractor.h,6;ORB_SLAM:ORBmatcher.cc,7;ORB_SLAM:PnPsolver.cc,8;ORB_SLAM:Sim3Solver.cc,9;ORB_SLAM:main.cc,10;ORB_SLAM:Converter.cc|050d119055b8ac1348329c7800000003=11;JNI:jni_part.cpp,12;JNI:Application.mk,13;JNI:Android.mk,0;ORB_SLAM:../include/Tracking.h,1;ORB_SLAM:Initializer.cc,2;ORB_SLAM:../include/Initializer.h,14;JNI:../../../../../wtengine/viewtwoo/Viewtwoo-Architecture/src/main.h,15;MonocularSFM:src/Monocular.cpp,16;MonocularSFM:src/BundleAdjuster.h,*17;MonocularSFM:src/BundleAdjuster.cpp,18;MonocularSFM:src/Scene3DMultiView.cpp,19;MonocularSFM:src/CameraView.cpp,20;MonocularSFM:MonocularSettings.ini@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0580337055b765c50732276300000003;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=050d119055b8ac1348329c7800000003;caption=;state=2098172;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,0,0)=1396|dock_size(5,0,0)=202|" />
+</CodeBlocks_layout_file>

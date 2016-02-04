@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1438074771 source:/mnt/Documents/Developing/ViewTwoo/orb_slam/Thirdparty/DBoW2/vocBuilder/vocBuilder.cpp
+	<iostream>
+	<vector>
+	<../DBoW2/FORB.h>
+	<../DBoW2/TemplatedVocabulary.h>
+	<../DBoW2/ScoringObject.h>
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+	<vector>
+	<string>
+	<iostream>
+	<opencv/cv.h>
+	<opencv/highgui.h>
+	<opencv2/nonfree/features2d.hpp>
+

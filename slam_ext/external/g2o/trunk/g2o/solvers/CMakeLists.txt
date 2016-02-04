@@ -1,0 +1,14 @@
+ADD_SUBDIRECTORY(pcg)
+ADD_SUBDIRECTORY(dense)
+#ADD_SUBDIRECTORY(slam2d_linear)
+ADD_SUBDIRECTORY(structure_only)
+ADD_SUBDIRECTORY(cholmod)
+
+# Sparse Module of Eigen is stable starting from 3.1
+IF (DEFINED EIGEN3_VERSION)
+  IF(${EIGEN3_VERSION} VERSION_GREATER "3.1.0" OR ${EIGEN3_VERSION} VERSION_EQUAL "3.1.0")
+    ADD_SUBDIRECTORY(eigen)
+  ENDIF()
+ELSE()
+MESSAGE(FATAL_ERROR "Eigen not found")
+ENDIF()

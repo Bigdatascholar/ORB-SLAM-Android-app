@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DictionaryBuilder" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./b/DictionaryBuilder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./d/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="build/R/DictionaryBuilder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/O/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="$(WORKSPACE_DIR)" />
+					<Add directory="$(OPENCV_DIR)/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="$(OPENCV_DIR)/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="/mnt/Documents/Developing/ViewTwoo/orb_slam/Thirdparty/DBoW2/vocBuilder/" />
+			<Add directory="$(OPENCV_DIR)/include" />
+		</Compiler>
+		<Linker>
+			<Add library="opencv_core" />
+			<Add library="opencv_features2d" />
+			<Add library="opencv_imgproc" />
+			<Add library="opencv_nonfree" />
+			<Add library="opencv_video" />
+			<Add library="opencv_highgui" />
+			<Add library="DBoW2" />
+			<Add directory="$(OPENCV_DIR)/lib" />
+			<Add directory="$(ORB_SLAM_LINUX_DIR)/lib" />
+		</Linker>
+		<Unit filename="vocBuilder.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

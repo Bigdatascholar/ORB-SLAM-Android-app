@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ORB_SLAM" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ORB_SLAM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ORB_SLAM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../include/Converter.h" />
+		<Unit filename="../include/Frame.h" />
+		<Unit filename="../include/FramePublisher.h" />
+		<Unit filename="../include/Initializer.h" />
+		<Unit filename="../include/KeyFrame.h" />
+		<Unit filename="../include/KeyFrameDatabase.h" />
+		<Unit filename="../include/LocalMapping.h" />
+		<Unit filename="../include/LoopClosing.h" />
+		<Unit filename="../include/Map.h" />
+		<Unit filename="../include/MapPoint.h" />
+		<Unit filename="../include/MapPublisher.h" />
+		<Unit filename="../include/ORBVocabulary.h" />
+		<Unit filename="../include/ORBextractor.h" />
+		<Unit filename="../include/ORBmatcher.h" />
+		<Unit filename="../include/Optimizer.h" />
+		<Unit filename="../include/PnPsolver.h" />
+		<Unit filename="../include/Sim3Solver.h" />
+		<Unit filename="../include/Tracking.h" />
+		<Unit filename="Converter.cc" />
+		<Unit filename="Frame.cc" />
+		<Unit filename="FramePublisher.cc" />
+		<Unit filename="Initializer.cc" />
+		<Unit filename="KeyFrame.cc" />
+		<Unit filename="KeyFrameDatabase.cc" />
+		<Unit filename="LocalMapping.cc" />
+		<Unit filename="LoopClosing.cc" />
+		<Unit filename="Map.cc" />
+		<Unit filename="MapPoint.cc" />
+		<Unit filename="MapPublisher.cc" />
+		<Unit filename="ORBextractor.cc" />
+		<Unit filename="ORBmatcher.cc" />
+		<Unit filename="Optimizer.cc" />
+		<Unit filename="PnPsolver.cc" />
+		<Unit filename="Sim3Solver.cc" />
+		<Unit filename="Tracking.cc" />
+		<Unit filename="main.cc" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
